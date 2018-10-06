@@ -28,9 +28,9 @@ def yaraGenerate(nizIzCsva, nazivPravila, tag, writer,thretlevle,description):
     #todo rulewriter
     file=open(gde_spremiti_pravilo,'w+')
     prva_linija="rule "+nazivPravila+" "
-    taG=": "+tag
+    taGs=": "+tag
     if tag:
-        prva_linija=prva_linija+tag+" {"
+        prva_linija=prva_linija+taGs+" {"
     else:
         prva_linija=prva_linija+" {"
     file.write(prva_linija)
